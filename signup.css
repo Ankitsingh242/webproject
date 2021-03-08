@@ -1,0 +1,136 @@
+{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;	
+}
+ 
+header
+{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("Tulips.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav
+{
+    width: 100%;
+    height: 15%;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav.logo
+{
+    width: 25%;
+    text-align: center;
+	
+}
+nav.logo h1{
+	margin-left:20px;
+}
+nav .menu a
+{
+    width: 25%;
+    text-decoration: hone;
+    color: white;
+    font-weight: bold;
+	margin-right:20px;
+	
+}
+
+nav .menu a:hover
+{
+	color: red;
+}
+
+.sign-up-form
+{
+	width:300px;
+	box-shadow: 10px 10px 10px rgb(0,0,0);
+	background: white;
+	padding:20px;
+	margin:0% auto 0;
+	text-align: center;
+	border:2px solid black;
+	width:500px;
+	background-color:white;
+	border-radius:10px;
+}
+
+.sign-up-form h1
+{
+	color:#1c8adb;
+	margin-bottom:30px;
+}
+
+.input-box-shadow
+{
+	border-radius:20px;
+	padding:10px;
+	margin:10px 0;
+	width:100%;
+	border:1px solid #999;
+	outline:none;
+	
+}
+
+.button
+{
+	color:#fff;
+	width:100%;
+	padding:10px;
+	border-radius:20px;
+	font-size:15px;
+	margin:10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.signup-btn
+{
+	background-color: #1c8adb;
+	font-size:25px;
+	padding:5px;
+	border-radius:5px;
+}
+.signup-btn:hover{
+	color: #1c8adb;
+	background-color: black;
+}
+.facebook-btn
+{
+	background-color:#21afde;
+	font-size:25px;
+	padding:5px;
+	border-radius:5px;
+}
+
+.a
+{
+	text-decoration:none;
+}
+ 
+ hr
+ {
+	 margin-top: 20px;
+	 width: 80%;
+ }
+ 
+ .or
+ {
+	 background: #fff;
+	 width: 30px;
+	 margin: -19px auto 10px;
+ }
+ .input-box
+ {
+	 font-size:25px;
+	 padding:10px;
+ }
+ 
